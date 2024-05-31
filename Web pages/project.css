@@ -1,0 +1,203 @@
+.links li a {
+    color:#F24130 ; /* Set the text color to white */
+ /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color:white ;
+}
+
+
+body {
+  font-family: 'Open Sans', rockwell;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+  
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+
+
+/* Start Landing Page */
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#0F1640; 
+}
+
+.landing-page header .logo {
+  color: #F24130;
+  font-style: extra bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+
+.landing-page header .links li {
+  margin-left: 30px;
+  color: ##F24130;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: ##1F2C73;
+  background-color: #1F2C73;
+}
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap")
+  repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+body {
+  background: #fff;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-family: "Lobster", cursive;
+}
+
+.wrapper {
+  animation: scroll 100s linear infinite;
+  background: url("https://media.istockphoto.com/id/926211910/photo/light-beam-blue-particle-background.jpg?s=612x612&w=0&k=20&c=ZtQG_M1CXQBCNNx47Cd7lEPwtnrf_z5e3QIERgFF8os="),
+    #111111;
+  color: #F24130;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+@keyframes scroll {
+  100% {
+    background-position: 0px -400%;
+  }
+}
+
+/* Fallback if the operatring system prefers reduced motion*/
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 800s linear infinite;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
+
+#portfolio{
+  background-color: #fbfbf; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    margin-bottom: 10px;
+}    
+
+
+.project {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: flex;
+    line-height: 200px;
+  
+}
+
+.footer{
+background:#0F1640;
+padding:30px 0px;
+font-family: 'Open sans', rockwell;
+text-align:center;
+  bottom:0;
+  width:100;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:#F24130;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:#F24130;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:##1F2C73;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+/* End Landing Page */
